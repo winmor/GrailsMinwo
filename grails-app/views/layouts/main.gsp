@@ -10,25 +10,12 @@
 	<asset:stylesheet src="ie10-viewport-bug-workaround.css"/>
 	
 	<g:javascript library="jquery" plugin="jquery"/>
-    <g:layoutTitle/>
-    
+    <title><g:layoutTitle default="Grails"/></title>
+    <g:layoutHead/>
+	
 </head>
 <body>
- <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-         <g:link class="navbar-brand" controller="main" action="index">Shop Managment</g:link>
-        </div>
-        <g:layoutHead/>
-        
-      </div>
-    </nav>
+
 
 <g:layoutBody/>
 

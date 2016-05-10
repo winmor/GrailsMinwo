@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <title>Create Product</title>
 		<meta name="layout" content="main"/>
 	
 		<script>
@@ -29,8 +30,23 @@
 		  
 		    });
 		});
+		
 	</script>
 	
+		
+	</head>
+	<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           <g:link  class="navbar-brand" controller="main" action="index">Shop Managment </g:link>
+        </div>
 		<div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><g:link controller="main" action="index">Home </g:link></li>
@@ -46,14 +62,13 @@
                 <li class="dropdown-header">Nav header</li>
                 <li><a href="#">Separated link</a></li>
                 <li><a href="#">One more separated link</a></li> --> 
+                
               </ul>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
-	</head>
-	<body>
-
-     
+     </div>
+     </nav>
         
       <p class="lead">
       
