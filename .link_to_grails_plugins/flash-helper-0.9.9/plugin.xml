@@ -1,0 +1,30 @@
+<plugin name='flash-helper' version='0.9.9' grailsVersion='1.0 &gt; *'>
+  <author>Donal Murtagh</author>
+  <authorEmail>domurtag@yahoo.co.uk</authorEmail>
+  <title>Flash-Scoped Messages Helper</title>
+  <description>
+Simplifies and standardizes the process of adding/reading messages in the flash scope, particularly i18n messages that must be retrieved from the messages*.properties files. It provides the following features:
+
+    * Automatically resolves i18n messages when message keys are stored in flash scope
+    * Optionally enforces the use of a limited number of flash keys (e.g. info, error, warning)
+    * Supports adding multiple messages to the same flash key
+    * Allows a Locale and default message argument to be provided when resolving i18n messages
+    * Provides a taglib that can be used to retrieve messages added to the flash
+</description>
+  <documentation>http://grails.org/plugin/flash-helper</documentation>
+  <type>FlashHelperGrailsPlugin</type>
+  <resources>
+    <resource>grails.plugin.flashhelper.FlashHelperTestController</resource>
+    <resource>grails.plugin.flashhelper.FlashHelperTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements>
+    <plugin name='controllers' version='grailsVersion' />
+  </runtimePluginRequirements>
+  <behavior />
+</plugin>
